@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="input-area">
+        <input
+          id="newTask-input"
+          type="text"
+          placeholder="Enter a new task"
+          required
+          focus
+        />
+        <input id="add" type="submit" value="Add Task" />
+      </div>
+      <div class="tasks-display">
+        <div class="current-tasks">
+          <h2 id="task-heading">Pending Tasks (0)</h2>
+          <div id="task-list"></div>
+        </div>
+        <div class="completed-tasks">
+          <h2 id="done-heading">Completed Tasks:</h2>
+          <div id="done-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
