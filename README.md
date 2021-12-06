@@ -1,4 +1,4 @@
-# ToDoApp
+# ToDo Keeper
 A simple app to keep tract of your tasks.
 # Features:
 1. Edit, Complete or Delete your current tasks.
