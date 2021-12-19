@@ -1,5 +1,5 @@
 # ToDo Keeper
-A simple app to keep tract of your tasks.
+A simple app to keep track of your tasks.
 # Features:
 1. Edit, Complete or Delete your current tasks.
 2. A counter which shows the remaining tasks to be completed.
